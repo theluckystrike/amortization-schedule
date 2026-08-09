@@ -8,6 +8,10 @@ Pure, dependency-free Go — the same engine behind the asset-loan
 [amortization calculator](https://assetloancalculator.com/) at
 AssetLoanCalculator.com.
 
+A worked instance of the same fixed-rate schedule, with the payment, interest,
+principal and balance columns rendered per period, is the
+[RV loan amortization schedule](https://assetloancalculator.com/rv-loan-calculator/).
+
 ## Install
 
 ```sh

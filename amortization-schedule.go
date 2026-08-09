@@ -3,6 +3,10 @@
 // principal, remaining balance). This is the same engine behind the asset loan
 // amortization tools at https://assetloancalculator.com/.
 //
+// A worked instance of the same fixed-rate schedule, with the payment,
+// interest, principal and balance columns rendered per period, is at
+// https://assetloancalculator.com/rv-loan-calculator/
+//
 // Quick example:
 //
 //	pmt := amortizationschedule.MonthlyPayment(100_000.0, 0.07, 360) // ~665.30
