@@ -5,7 +5,7 @@
 Fully-amortizing fixed-rate loan math: the monthly payment and the full
 per-period amortization schedule (interest, principal, remaining balance).
 Pure, dependency-free Go — the same engine behind the asset-loan
-[amortization calculator](https://assetloancalculator.com/) at
+[more on readme intro amortization, see assetloancalculator.com](https://assetloancalculator.com/) at
 AssetLoanCalculator.com.
 
 A worked instance of the same fixed-rate schedule, with the payment, interest,
