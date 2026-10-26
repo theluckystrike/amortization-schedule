@@ -56,6 +56,25 @@ func main() {
 
 `PaymentRow` holds `Period`, `Payment`, `Interest`, `Principal`, `Balance`.
 
+## Command-line tool and container
+
+`cmd/amortize` prints the schedule as CSV, or a one-line summary:
+
+```sh
+go install github.com/theluckystrike/amortization-schedule/cmd/amortize@latest
+amortize 85000 8.25 60            # period,payment,interest,principal,balance
+amortize -summary 85000 8.25 60   # payment=1733.68 total_interest=19020.88 ...
+```
+
+The same binary is published as a tiny multi-arch (amd64/arm64) image built
+from scratch:
+
+```sh
+docker run --rm theluckystrike/amortization-schedule -summary 85000 8.25 60
+```
+
+Longer documentation with worked examples: https://amortization-schedule.readthedocs.io/
+
 ## License
 
 MIT.
